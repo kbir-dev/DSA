@@ -20,7 +20,7 @@ void display(int arr[],int length){
 }
 
 int main(){
-	int arr[]={9,12,14,15,11,134,560,1,453,234,110,221};
+	int arr[]={9,11,134,560,1,453,234,110,221};
 	int length = sizeof(arr)/sizeof(arr[0]);
 	cout<<"Array Before Sorting: "<<endl;
 	display(arr,length);
